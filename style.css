@@ -74,7 +74,6 @@ button:focus-visible {
 .hero-sub {
   font-size: 1.05rem;
   color: var(--text-muted);
-  max-width: 62ch;
   margin: 0;
 }
 
