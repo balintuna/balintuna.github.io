@@ -156,6 +156,14 @@ h2 {
   color: var(--text-muted);
 }
 
+.project-media-link {
+  display: block;
+}
+
+.project-media-link:hover .project-img {
+  border-color: var(--accent-blue);
+}
+
 .project-img {
   display: block;
   width: 100%;
@@ -165,6 +173,7 @@ h2 {
   border: 1px solid var(--border);
   margin-bottom: 16px;
   filter: grayscale(15%);
+  transition: border-color 0.15s ease;
 }
 
 .project-card p {
